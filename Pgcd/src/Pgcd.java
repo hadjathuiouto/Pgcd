@@ -47,7 +47,7 @@ public class Pgcd {
              {
             	 
                  s.add(d);
-                 s.add(c / d);
+                //s.add(c / d); PAS UNE BONNE FINALEMENT
                  return maxList(s);
              }
              else if (r == 1) return 1;
